@@ -1,0 +1,12 @@
+{
+	"name": "Anaconda with Jupyter and PDF Preview",
+	"image": "mcr.microsoft.com/devcontainers/anaconda:3",
+
+	"extensions": [
+		"ms-python.python",
+		"ms-toolsai.jupyter",
+		"analytic-signal.preview-pdf"
+	],
+
+	"postCreateCommand": "pip install -r requirements.txt"
+}
