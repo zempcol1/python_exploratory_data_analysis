@@ -1,6 +1,6 @@
 {
-	"name": "Anaconda with Jupyter and PDF Preview",
-	"image": "mcr.microsoft.com/devcontainers/anaconda:3",
+    "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
 	"extensions": [
 		"ms-python.python",
