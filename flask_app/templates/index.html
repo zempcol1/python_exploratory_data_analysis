@@ -5,16 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apartment Listings</title>
     <style>
+        body {
+            background-color: #121212;
+            color: greenyellow;  /* Set the text color to greenyellow */
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2, p {
+            color: greenyellow;  /* Set headings and paragraphs to greenyellow */
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #1e1e1e;
         }
+
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid #444444;
         }
+
         th, td {
             padding: 10px;
             text-align: left;
+            color: greenyellow;  /* Set table text color to greenyellow */
+        }
+
+        th {
+            background-color: #333333;
+            color: greenyellow;  /* Set header color to greenyellow */
+        }
+
+        tr:nth-child(even) {
+            background-color: #2c2c2c;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #1e1e1e;
+        }
+
+        img {
+            border: 1px solid #444444;
+            margin-top: 20px;
+        }
+
+        /* Add hover effect for table rows */
+        tr:hover {
+            background-color: #444444;
         }
     </style>
 </head>
@@ -22,12 +60,12 @@
     <h1>Apartment Listings</h1>
     
     <!-- Display the KPIs -->
-    <h2>Key Performance Indicators (KPIs)</h2>
+    <h2>KPIs</h2>
     <p><strong>Mean Price:</strong> {{ mean_price }} CHF</p>
     <p><strong>Mean Area:</strong> {{ mean_area }} m²</p>
     
     <!-- Display the histogram -->
-    <h2>Price Histogram</h2>
+    <h2>Rental Prices (CHF)</h2>
     <img src="{{ histogram_path }}" alt="Price Histogram" width="500">
 
     <!-- Display the apartment data in a table -->
@@ -55,4 +93,3 @@
     </table>
 </body>
 </html>
-

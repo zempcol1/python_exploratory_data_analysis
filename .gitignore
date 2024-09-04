@@ -1,0 +1,12 @@
+# Python stuff
+__pycache__/
+
+# Flask exercise
+flask_app/
+
+# Jupyter notebooks
+exploratory_data_analysis_apartments_data.ipynb
+exploring_spatial_data.ipynb
+
+# Data
+GEN_A4_GEMEINDEN_2019_epsg4326.json
