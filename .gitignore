@@ -2,7 +2,7 @@
 __pycache__/
 
 # Flask exercise
-flask_app/
+flask_app
 
 # Jupyter notebooks
 exploratory_data_analysis_apartments_data.ipynb
