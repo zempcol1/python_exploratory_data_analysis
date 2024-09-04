@@ -5,7 +5,7 @@ __pycache__/
 flask_app
 
 # Jupyter notebooks
-exploratory_data_analysis_apartments_data.ipynb
+exploratory_data_analysis_apartments_data_solution.ipynb
 exploring_spatial_data.ipynb
 
 # Data
