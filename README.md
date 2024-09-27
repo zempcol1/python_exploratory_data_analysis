@@ -1,4 +1,3 @@
-
 # Exploratory Data Analysis (EDA)
 
 In this GitHub repository, methods of exploratory data analysis (EDA) are explained using a data set with data on rental apartments. The aim is to gain insights into the structure of the data, its distribution and the relationships between the variables. The various EDA techniques used in this notebook are listed below.
