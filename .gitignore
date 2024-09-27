@@ -2,12 +2,12 @@
 __pycache__/
 
 # Flask exercise
-flask_app
+# flask_app
 
 # Jupyter notebooks
-exploratory_data_analysis_apartments_data_solution.ipynb
-exploring_spatial_data.ipynb
+# exploratory_data_analysis_apartments_data_solution.ipynb
+# exploring_spatial_data.ipynb
 
 # Data
-GEN_A4_GEMEINDEN_2019_epsg4326.json
-municipalities_kt_zh_data.xlsx
+# GEN_A4_GEMEINDEN_2019_epsg4326.json
+# municipalities_kt_zh_data.xlsx
