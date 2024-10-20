@@ -9,3 +9,4 @@ seaborn
 statsmodels
 openpyxl
 flask
+d3graph
